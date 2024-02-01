@@ -1,0 +1,27 @@
+{
+  "name": "private-resolver",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu-22.04",
+  "mounts": [
+    "source=${localEnv:HOME}${localEnv:USERPROFILE},target=/host-home-folder,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "GitHub.copilot",
+        "GitHub.vscode-pull-request-github",
+        "streetsidesoftware.code-spell-checker",
+        "shd101wyy.markdown-preview-enhanced",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
+    "ghcr.io/dhoeric/features/terraform-docs:1": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {},
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers-community/npm-features/typescript:1": {}
+  }
+}
