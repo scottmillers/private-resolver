@@ -26,5 +26,5 @@ locals {
 
 resource "local_file" "output_variables" {
   content  = local.variables
-  filename = "${path.module}/test/variables.zsh"
+  filename = "${path.module}/scripts/variables.zsh"
 }

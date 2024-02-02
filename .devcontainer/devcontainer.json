@@ -20,8 +20,5 @@
     "ghcr.io/devcontainers-contrib/features/terraform-asdf:2": {},
     "ghcr.io/dhoeric/features/terraform-docs:1": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {},
-    "ghcr.io/devcontainers/features/aws-cli:1": {},
-    "ghcr.io/devcontainers/features/node:1": {},
-    "ghcr.io/devcontainers-community/npm-features/typescript:1": {}
   }
 }
